@@ -1,0 +1,35 @@
+[
+  {
+    "id": "poco-x7-pro",
+    "name": "Poco X7 Pro",
+    "launch_date": "2025-09-15",
+    "ram": "12GB",
+    "storage": "256GB",
+    "battery": "5000mAh",
+    "camera": "108MP",
+    "display": "6.7 inch AMOLED",
+    "description": "Flagship killer with Snapdragon 8 Gen 3 processor."
+  },
+  {
+    "id": "oneplus-13",
+    "name": "OnePlus 13",
+    "launch_date": "2025-10-05",
+    "ram": "16GB",
+    "storage": "512GB",
+    "battery": "5500mAh",
+    "camera": "64MP + 64MP",
+    "display": "6.8 inch QHD+ AMOLED",
+    "description": "Premium smartphone with Hasselblad camera and curved display."
+  },
+  {
+    "id": "samsung-galaxy-s26",
+    "name": "Samsung Galaxy S26",
+    "launch_date": "2026-01-20",
+    "ram": "20GB",
+    "storage": "1TB",
+    "battery": "6000mAh",
+    "camera": "200MP",
+    "display": "7.0 inch Dynamic AMOLED 2X",
+    "description": "Next-gen flagship with foldable display and AI-powered camera."
+  }
+]

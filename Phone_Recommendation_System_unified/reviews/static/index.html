@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Shop — Reviews</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Reviews</h1>
+    <p class="subtitle">Read and write reviews about phones and sellers.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Write a review</h2>
+      <form id="reviewForm" class="grid">
+        <div class="field">
+          <label for="reviewer_name">Your name</label>
+          <input id="reviewer_name" name="reviewer_name" placeholder="Optional" />
+        </div>
+        <div class="field">
+          <label for="rating">Rating</label>
+          <select id="rating" name="rating" required>
+            <option value="">Choose</option>
+            <option>5</option><option>4</option><option>3</option><option>2</option><option>1</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="model">Phone model</label>
+          <input id="model" name="model" placeholder="e.g., Galaxy S23" />
+        </div>
+        <div class="field" style="grid-column:1/-1;">
+          <label for="title">Title</label>
+          <input id="title" name="title" placeholder="Short title for your review" />
+        </div>
+        <div class="field" style="grid-column:1/-1;">
+          <label for="body">Your review</label>
+          <textarea id="body" name="body" rows="5" placeholder="Share your experience..." required></textarea>
+        </div>
+        <div class="field">
+          <label for="city">City</label>
+          <input id="city" name="city" placeholder="Optional" />
+        </div>
+        <div class="actions" style="grid-column:1/-1;">
+          <button type="submit" class="btn primary">Submit Review</button>
+          <button type="reset" class="btn">Clear</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Browse reviews <span id="stats" class="muted"></span></h2>
+      <form id="filterForm" class="grid">
+        <div class="field">
+          <label for="q">Search</label>
+          <input id="q" placeholder="Search title, body or reviewer" />
+        </div>
+        <div class="field">
+          <label for="filterModel">Model</label>
+          <input id="filterModel" placeholder="Filter by phone model" />
+        </div>
+        <div class="field">
+          <label for="minRating">Min rating</label>
+          <select id="minRating">
+            <option value="">Any</option>
+            <option value="5">5</option><option value="4">4</option><option value="3">3</option>
+          </select>
+        </div>
+        <div class="actions" style="grid-column:1/-1;">
+          <button id="searchBtn" class="btn primary" type="submit">Search</button>
+          <button id="clearBtn" class="btn" type="button">Clear</button>
+        </div>
+      </form>
+
+      <div id="reviewsWrap" class="list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

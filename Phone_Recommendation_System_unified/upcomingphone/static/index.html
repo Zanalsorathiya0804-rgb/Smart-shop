@@ -1,0 +1,80 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Shop — Upcoming Phones</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Upcoming Phones</h1>
+    <p class="subtitle">See upcoming phone releases, timelines, and set a reminder to be notified.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <form id="searchForm" class="grid">
+        <div class="field">
+          <label for="q">Search</label>
+          <input id="q" placeholder="Search brand, model, notes…" />
+        </div>
+        <div class="field">
+          <label for="brand">Brand</label>
+          <select id="brand"><option value="">Any</option></select>
+        </div>
+        <div class="field">
+          <label for="days">Show upcoming within (days)</label>
+          <input id="days" type="number" value="365" min="1" />
+        </div>
+        <div class="field">
+          <label for="sort">Sort</label>
+          <select id="sort">
+            <option value="soon">Soonest</option>
+            <option value="latest">Latest first</option>
+          </select>
+        </div>
+        <div style="grid-column:1/-1;display:flex;gap:8px;align-items:end;">
+          <button class="btn primary" id="searchBtn" type="submit">Search</button>
+          <button class="btn" id="clearBtn" type="button">Clear</button>
+          <a class="btn" id="showAll" href="?all=1">Show All</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Results <span id="count" class="muted"></span></h2>
+      <div id="results" class="list"></div>
+    </section>
+  </main>
+
+  <!-- Reminder modal (simple) -->
+  <div id="reminderModal" class="modal" style="display:none;">
+    <div class="modal-card">
+      <h3 id="modalTitle">Set Reminder</h3>
+      <form id="reminderForm">
+        <input type="hidden" id="phone_id" name="phone_id" />
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" />
+        </div>
+        <div class="field">
+          <label for="contact">Contact (email or phone)</label>
+          <input id="contact" name="contact" placeholder="+91-..." />
+        </div>
+        <div class="field" style="grid-column:1/-1;">
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3"></textarea>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button class="btn primary" type="submit">Save Reminder</button>
+          <button class="btn" type="button" id="closeModal">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

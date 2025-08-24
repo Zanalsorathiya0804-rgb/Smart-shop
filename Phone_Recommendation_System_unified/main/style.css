@@ -1,0 +1,116 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Page Styling */
+body {
+    background-color: #071025;
+    color: black;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden; /* Prevent scrolling unless on phone */
+}
+
+/* Header Styling */
+header {
+    background-color: #071025;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Icon Container */
+.icon-container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 1000px;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+/* Icon Box */
+.icon-box {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+}
+
+/* Hover Effect */
+.icon-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Images - Scales Dynamically */
+.icon-box img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+/* Icon Text */
+.icon-box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #424874;
+}
+
+/* Responsive Layout */
+@media (min-width: 1025px) {
+    /* Laptop/Desktop: 3 icons per row, no scrolling */
+    .icon-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon-box img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 601px) {
+    /* Tablets/iPads: 2 icons per row, no scrolling */
+    .icon-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .icon-box img {
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Phones: 1 icon per row, scrolling enabled */
+    body {
+        overflow-y: auto; /* Enable scrolling for phones */
+    }
+    .icon-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 50px;
+    }
+    .icon-box img {
+        max-width: 100px;
+    }
+}

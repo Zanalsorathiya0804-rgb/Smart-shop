@@ -1,0 +1,74 @@
+[
+  {
+    "id": "UP001",
+    "brand": "Samsung",
+    "model": "Galaxy S25",
+    "release_date": "2025-10-01",
+    "price": "TBD",
+    "description": "Next flagship from Samsung with rumored AI camera improvements.",
+    "announced_by": "Samsung",
+    "pre_order_date": "2025-10-02",
+    "notes": "Expected Snapdragon later in some regions.",
+    "img_url": ""
+  },
+  {
+    "id": "UP002",
+    "brand": "Apple",
+    "model": "iPhone 16",
+    "release_date": "2025-09-18",
+    "price": "TBD",
+    "description": "Apple's next iPhone with improved battery and camera sensors.",
+    "announced_by": "Apple",
+    "pre_order_date": "2025-09-19",
+    "notes": "Expected event in September.",
+    "img_url": ""
+  },
+  {
+    "id": "UP003",
+    "brand": "OnePlus",
+    "model": "OnePlus 13",
+    "release_date": "2025-11-05",
+    "price": "TBD",
+    "description": "OnePlus flagship focusing on fast charging.",
+    "announced_by": "OnePlus",
+    "pre_order_date": "2025-11-06",
+    "notes": "May include new fast charge tech.",
+    "img_url": ""
+  },
+  {
+    "id": "UP004",
+    "brand": "Xiaomi",
+    "model": "Mi 14 Ultra",
+    "release_date": "2025-12-12",
+    "price": "TBD",
+    "description": "Xiaomi's Ultra variant with large sensor camera.",
+    "announced_by": "Xiaomi",
+    "pre_order_date": "2025-12-13",
+    "notes": "May be limited to select markets.",
+    "img_url": ""
+  },
+  {
+    "id": "UP005",
+    "brand": "Google",
+    "model": "Pixel 9",
+    "release_date": "2025-10-15",
+    "price": "TBD",
+    "description": "Focus on AI on-device features and camera.",
+    "announced_by": "Google",
+    "pre_order_date": "2025-10-16",
+    "notes": "New Tensor chipset expected.",
+    "img_url": ""
+  },
+  {
+    "id": "UP006",
+    "brand": "Vivo",
+    "model": "Vivo X200",
+    "release_date": "2026-01-20",
+    "price": "TBD",
+    "description": "Premium Vivo device with high-res display.",
+    "announced_by": "Vivo",
+    "pre_order_date": "2026-01-21",
+    "notes": "Expected to debut at CES.",
+    "img_url": ""
+  }
+]

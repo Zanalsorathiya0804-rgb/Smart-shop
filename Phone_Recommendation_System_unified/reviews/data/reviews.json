@@ -1,0 +1,46 @@
+[
+  {
+    "id": "R1001",
+    "reviewer_name": "Amit",
+    "rating": 5,
+    "title": "Loved it",
+    "body": "Great battery life and camera. Smooth performance.",
+    "model": "Galaxy S23",
+    "city": "Ahmedabad",
+    "created_at": "2025-08-24T05:49:12.236962Z",
+    "visible": true
+  },
+  {
+    "id": "R1002",
+    "reviewer_name": "Sana",
+    "rating": 4,
+    "title": "Good value",
+    "body": "Nice phone for the price but the speaker could be better.",
+    "model": "Redmi Note 13 Pro",
+    "city": "Mumbai",
+    "created_at": "2025-08-24T05:49:12.236962Z",
+    "visible": true
+  },
+  {
+    "id": "R1756014894337",
+    "reviewer_name": "zanal",
+    "rating": 5,
+    "title": "very good",
+    "body": "i buy phone oppo and it help me/.....",
+    "model": "oppo",
+    "city": "baroda",
+    "created_at": "2025-08-24T05:54:54.337551Z",
+    "visible": true
+  },
+  {
+    "id": "R1756015052427",
+    "reviewer_name": "bansi",
+    "rating": 3,
+    "title": "very good experience about shopkeeper that shop ii find in smart shop....",
+    "body": "it is very good experience.",
+    "model": "apple",
+    "city": "rajkot",
+    "created_at": "2025-08-24T05:57:32.427657Z",
+    "visible": true
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "AHM001",
+    "name": "Shree Mobile Hub",
+    "address": "CG Road",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380009",
+    "phone": "+91-79-1234-5678",
+    "opening_hours": "Mon\u2013Sun 10:00\u201321:00",
+    "phone_brands": [
+      "Apple",
+      "Samsung",
+      "OnePlus",
+      "Xiaomi"
+    ],
+    "inventory": [
+      "OP12R",
+      "SGS23",
+      "RN13P",
+      "IP14"
+    ]
+  },
+  {
+    "id": "MUM101",
+    "name": "Mobile Plaza Dadar",
+    "address": "Near Dadar Station",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400014",
+    "phone": "+91-22-2345-6789",
+    "opening_hours": "Mon\u2013Sun 10:00\u201322:00",
+    "phone_brands": [
+      "Apple",
+      "Samsung",
+      "OPPO",
+      "Vivo"
+    ],
+    "inventory": [
+      "IP14",
+      "SGA15",
+      "OPPOF25",
+      "VY100"
+    ]
+  },
+  {
+    "id": "DEL201",
+    "name": "Connaught Gadgets",
+    "address": "Connaught Place",
+    "city": "Delhi",
+    "state": "Delhi",
+    "pincode": "110001",
+    "phone": "+91-11-3456-7890",
+    "opening_hours": "Mon\u2013Sat 10:00\u201320:00",
+    "phone_brands": [
+      "Apple",
+      "Google",
+      "Samsung"
+    ],
+    "inventory": [
+      "IP14P",
+      "PIXEL7A",
+      "SGS23"
+    ]
+  },
+  {
+    "id": "BLR301",
+    "name": "Indiranagar Mobile Mart",
+    "address": "100 Feet Road",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "pincode": "560038",
+    "phone": "+91-80-4567-8901",
+    "opening_hours": "Mon\u2013Sun 11:00\u201321:00",
+    "phone_brands": [
+      "OnePlus",
+      "Samsung",
+      "Realme",
+      "Motorola"
+    ],
+    "inventory": [
+      "OP11R",
+      "OP12R",
+      "RM12P",
+      "MOTOE40"
+    ]
+  },
+  {
+    "id": "CHE401",
+    "name": "T Nagar Tech",
+    "address": "Usman Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600017",
+    "phone": "+91-44-5678-9012",
+    "opening_hours": "Mon\u2013Sun 10:30\u201321:30",
+    "phone_brands": [
+      "Samsung",
+      "Xiaomi",
+      "Realme"
+    ],
+    "inventory": [
+      "SGA15",
+      "RN13P",
+      "RM12P"
+    ]
+  },
+  {
+    "id": "HYD501",
+    "name": "Hitech Mobiles",
+    "address": "KPHB Colony",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "500072",
+    "phone": "+91-40-6789-0123",
+    "opening_hours": "Mon\u2013Sun 10:00\u201321:00",
+    "phone_brands": [
+      "OnePlus",
+      "Google",
+      "Vivo"
+    ],
+    "inventory": [
+      "OP12R",
+      "PIXEL7A",
+      "VY100"
+    ]
+  },
+  {
+    "id": "PUN601",
+    "name": "JM Road Mobile World",
+    "address": "JM Road",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411005",
+    "phone": "+91-20-7890-1234",
+    "opening_hours": "Mon\u2013Sun 10:00\u201321:00",
+    "phone_brands": [
+      "Motorola",
+      "Samsung",
+      "Xiaomi"
+    ],
+    "inventory": [
+      "MOTOE40",
+      "SGS23",
+      "RN13P"
+    ]
+  },
+  {
+    "id": "JAI701",
+    "name": "Pink City Phones",
+    "address": "MI Road",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "pincode": "302001",
+    "phone": "+91-141-8901-2345",
+    "opening_hours": "Mon\u2013Sun 10:00\u201320:30",
+    "phone_brands": [
+      "Vivo",
+      "OPPO",
+      "Realme"
+    ],
+    "inventory": [
+      "VY100",
+      "OPPOF25",
+      "RM12P"
+    ]
+  },
+  {
+    "id": "KOL801",
+    "name": "Salt Lake Gadget Store",
+    "address": "Sector V",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700091",
+    "phone": "+91-33-9012-3456",
+    "opening_hours": "Mon\u2013Sat 10:00\u201320:00",
+    "phone_brands": [
+      "Apple",
+      "Samsung",
+      "OnePlus"
+    ],
+    "inventory": [
+      "IP14P",
+      "SGS23",
+      "OP11R"
+    ]
+  }
+]

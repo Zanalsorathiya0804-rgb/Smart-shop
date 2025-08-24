@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smart Shop — Phone Finder</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Smart Shop</h1>
+    <p class="subtitle">Find the perfect phone, then locate a shop near you (India)</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Phone Finder</h2>
+      <form id="filterForm" class="grid">
+        <div class="field">
+          <label for="q">Search</label>
+          <input type="text" id="q" placeholder="e.g., iPhone, Galaxy, OnePlus…" />
+        </div>
+        <div class="field">
+          <label for="brand">Brand</label>
+          <select id="brand">
+            <option value="">Any</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="min_price">Min Price (₹)</label>
+          <input type="number" id="min_price" min="0" step="1000" />
+        </div>
+        <div class="field">
+          <label for="max_price">Max Price (₹)</label>
+          <input type="number" id="max_price" min="0" step="1000" />
+        </div>
+        <div class="field">
+          <label for="ram_min">Min RAM (GB)</label>
+          <select id="ram_min">
+            <option value="">Any</option>
+            <option>4</option>
+            <option>6</option>
+            <option>8</option>
+            <option>12</option>
+            <option>16</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="storage_min">Min Storage (GB)</label>
+          <select id="storage_min">
+            <option value="">Any</option>
+            <option>64</option>
+            <option>128</option>
+            <option>256</option>
+            <option>512</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="sort">Sort By</label>
+          <select id="sort">
+            <option value="">Relevance</option>
+            <option value="price_asc">Price: Low to High</option>
+            <option value="price_desc">Price: High to Low</option>
+            <option value="rating_desc">Rating: High to Low</option>
+          </select>
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn primary">Search</button>
+          <button type="button" id="clearBtn" class="btn">Clear</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>Results</h2>
+        <span id="resultsCount" class="muted"></span>
+      </div>
+      <div id="results" class="cards"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Smart Shop — Compare Phones</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="container">
+    <h1>Compare Phones</h1>
+    <p class="subtitle">Pick two phones and get a comparison, recommendation and short reasons.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <div class="grid">
+        <div>
+          <label for="leftSelect">Phone A</label>
+          <select id="leftSelect"></select>
+        </div>
+        <div>
+          <label for="rightSelect">Phone B</label>
+          <select id="rightSelect"></select>
+        </div>
+        <div style="grid-column:1/-1; display:flex; gap:8px; align-items:end;">
+          <button id="compareBtn" class="btn primary">Compare</button>
+          <button id="swapBtn" class="btn">Swap</button>
+          <button id="clearBtn" class="btn">Clear</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="compareCard" style="display:none;">
+      <h2>Comparison</h2>
+      <div class="compare-grid">
+        <div class="phone-card" id="leftCard"></div>
+        <div class="phone-card" id="rightCard"></div>
+      </div>
+
+      <h3 style="margin-top:18px;">Detailed spec comparison</h3>
+      <div id="specsTable"></div>
+
+      <h3 style="margin-top:18px;">Recommendation</h3>
+      <div id="recommendation" class="muted"></div>
+
+      <h3 style="margin-top:12px;">Why this recommendation?</h3>
+      <ul id="reasons"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

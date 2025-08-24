@@ -1,0 +1,122 @@
+[
+  {
+    "id": "IP14",
+    "brand": "Apple",
+    "model": "iPhone 14",
+    "price": 58999,
+    "ram_gb": 6,
+    "storage_gb": 128,
+    "battery_mah": 3279,
+    "rating": 4.6
+  },
+  {
+    "id": "IP14P",
+    "brand": "Apple",
+    "model": "iPhone 14 Pro",
+    "price": 109999,
+    "ram_gb": 6,
+    "storage_gb": 256,
+    "battery_mah": 3200,
+    "rating": 4.8
+  },
+  {
+    "id": "SGS23",
+    "brand": "Samsung",
+    "model": "Galaxy S23",
+    "price": 74999,
+    "ram_gb": 8,
+    "storage_gb": 256,
+    "battery_mah": 3900,
+    "rating": 4.7
+  },
+  {
+    "id": "SGA15",
+    "brand": "Samsung",
+    "model": "Galaxy A15",
+    "price": 17999,
+    "ram_gb": 6,
+    "storage_gb": 128,
+    "battery_mah": 5000,
+    "rating": 4.2
+  },
+  {
+    "id": "OP12R",
+    "brand": "OnePlus",
+    "model": "12R",
+    "price": 38999,
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "battery_mah": 5500,
+    "rating": 4.5
+  },
+  {
+    "id": "OP11R",
+    "brand": "OnePlus",
+    "model": "11R",
+    "price": 39999,
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "battery_mah": 5000,
+    "rating": 4.4
+  },
+  {
+    "id": "RN13P",
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro",
+    "price": 24999,
+    "ram_gb": 8,
+    "storage_gb": 256,
+    "battery_mah": 5100,
+    "rating": 4.3
+  },
+  {
+    "id": "RM12P",
+    "brand": "Realme",
+    "model": "12 Pro",
+    "price": 26999,
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "battery_mah": 5000,
+    "rating": 4.2
+  },
+  {
+    "id": "VY100",
+    "brand": "Vivo",
+    "model": "Y100",
+    "price": 19999,
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "battery_mah": 4500,
+    "rating": 4.1
+  },
+  {
+    "id": "OPPOF25",
+    "brand": "OPPO",
+    "model": "F25 Pro",
+    "price": 23999,
+    "ram_gb": 8,
+    "storage_gb": 256,
+    "battery_mah": 5000,
+    "rating": 4.0
+  },
+  {
+    "id": "MOTOE40",
+    "brand": "Motorola",
+    "model": "Edge 40",
+    "price": 29999,
+    "ram_gb": 8,
+    "storage_gb": 256,
+    "battery_mah": 4400,
+    "rating": 4.2
+  },
+  {
+    "id": "PIXEL7A",
+    "brand": "Google",
+    "model": "Pixel 7a",
+    "price": 35999,
+    "ram_gb": 8,
+    "storage_gb": 128,
+    "battery_mah": 4385,
+    "rating": 4.3
+  }
+]

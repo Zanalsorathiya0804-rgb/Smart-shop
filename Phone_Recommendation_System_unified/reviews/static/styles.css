@@ -1,0 +1,19 @@
+
+:root{
+  --bg:#061022; --card:#0f1724; --muted:#b0b7c3; --text:#e8ecf1; --primary:#ffd166; --radius:12px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Segoe UI,Roboto,Arial;background:radial-gradient(800px 600px at 10% -20%, #021324,var(--bg));color:var(--text)}
+.container{max-width:1050px;margin:0 auto;padding:22px}
+header h1{margin:6px 0;font-size:30px} .subtitle{color:var(--muted);margin:0 0 8px 0}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.04);border-radius:var(--radius);padding:16px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.field label{display:block;color:var(--muted);font-size:13px;margin-bottom:6px}
+.field input, .field select, textarea{width:100%;padding:10px 12px;border-radius:10px;background:#071428;border:1px solid rgba(255,255,255,0.04);color:var(--text)}
+.btn{padding:10px 14px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:#0d1624;color:var(--text);cursor:pointer}
+.btn.primary{background:linear-gradient(135deg,var(--primary), #ffdca3);color:#021025;border:none;font-weight:700}
+.list{display:grid;gap:12px;margin-top:12px}
+.review-card{padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:#061022}
+.review-meta{display:flex;gap:10px;align-items:center;justify-content:space-between;color:var(--muted);font-size:13px}
+.stars{color:gold;font-weight:700}
+.footer{text-align:center;color:var(--muted);margin-top:12px}
